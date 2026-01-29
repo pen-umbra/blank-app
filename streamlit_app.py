@@ -39,7 +39,8 @@ elif step == "2. Capability Config":
         authorization = st.checkbox("Authorization")
         service_accounts = st.checkbox("Service Accounts Enabled")
     
-    st.button("Save Draft")
+    if st.button("Save Draft"):
+        st.success("Draft Saved")
 
 # --- SEZIONE 3: LOGIN SETTINGS ---
 elif step == "3. Login Settings":
