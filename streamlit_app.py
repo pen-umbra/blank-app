@@ -39,7 +39,7 @@ elif step == "2. Capability Config":
         authorization = st.checkbox("Authorization")
         service_accounts = st.checkbox("Service Accounts Enabled")
     
-    st.button("Salva Bozza")
+    st.button("Save Draft")
 
 # --- SEZIONE 3: LOGIN SETTINGS ---
 elif step == "3. Login Settings":
