@@ -27,7 +27,7 @@ if step == "1. General Settings":
         description = st.text_area("Description", placeholder="Brief service description")
         display_on_ui = st.toggle("Always display in UI", value=False)
     
-    if st.button("Next Step"):
+    if st.button("Save Draft"):
         st.success("Draft Saved")
 
 # --- SEZIONE 2: CAPABILITY CONFIG ---
